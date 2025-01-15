@@ -21,8 +21,7 @@
 <body>
   <header>
     <div class="bg_primary row1">
-      <div    
-      class="container">
+      <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="navigation">
@@ -60,30 +59,94 @@
     </div><!-- bg_primary -->
   </header>
 
-  <section>
+  <section class="about-section">
     <div class="container-fluid">
       <div class="row align_center">
-        <div class="col-lg-6 col-md-6 p-left-0 p-right-0">
-            <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-              <img src="images/image6.png" style="width: 70%; object-fit: cover;">
-            </div>
+        <div class="col-lg-6 col-md-6 p-left-0 p-right-0" data-aos="fade-up">
+          <div class="image-container">
+            <img src="images/image8.jpg" alt="About Us Image">
           </div>
-        <div class="col-lg-6 col-md-6 mar-b-3">
-          <div class="section_content p-r-110 p-l-60">
+        </div><!-- col-lg-6 col-md-6 -->
+        <div class="col-lg-6 col-md-6 mar-b-3" data-aos="fade-up">
+          <div class="section_content_custom p-r-110 p-l-60">
             <i class="fas fa-users fa-3x"></i> <!-- Group of users icon -->
-
-            <h2 style="margin-top: 15px; margin-bottom: 15px;">About Us</h2>
-            <p>Market Twin Cities is a dynamic organization dedicated to empowering Minnesota’s rising professionals. Our mission is to connect individuals from all industries, providing them with the tools, insights, and networks needed to advance their careers and drive meaningful change in their fields.
-    
-                We believe that fostering collaboration, growth, and innovation is essential for the future of Minnesota’s workforce. Through our programs, events, and the annual MN Rising Professionals Conference, we create opportunities for young leaders to engage with one another, learn from industry experts, and build lasting professional relationships.
-                
-                At Market Twin Cities, we are committed to cultivating a vibrant network of emerging professionals who are ready to lead with impact, shape the future of their industries, and contribute to the continued success of Minnesota’s economy.
-                </p>
-          </div><!-- section_content -->
+            <h2 class="section-title-custom" style="margin-top: 15px; margin-bottom: 15px;">About Us</h2>
+            <p>MN Rising Professionals was founded to address the need for a dedicated space where young professionals
+              could connect, grow, and thrive. Recognizing a lack of professional events in Minnesota specifically
+              tailored to rising talent—and the opportunity to create something beyond the traditional, industry-focused
+              gatherings—the vision was to build a platform that brings together professionals from all fields for
+              meaningful collaboration and networking.</p>
+            <p>Unlike typical professional events, MN Rising Professionals fosters connection and inspiration across all
+              industries. Our mission is to empower and connect Minnesota rising professionals from all industries,
+              providing them with the tools, insights, and networks needed to advance their careers and drive meaningful
+              change within their fields.</p>
+          </div><!-- section_content_custom -->
         </div><!-- col-lg-6 col-md-6 -->
       </div><!-- row -->
-    </div>
+    </div><!-- container -->
   </section>
+
+  <style>
+    .about-section {
+      padding: 60px 0;
+      background-color: #f9f9f9;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .image-container img {
+      width: 70%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .section_content_custom {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .section_content_custom i {
+      color: #000;
+    }
+
+    .section-title-custom {
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .section_content_custom p {
+      color: #555;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .section_content_custom {
+        padding: 15px;
+      }
+
+      .section-title-custom {
+        font-size: 1.5em;
+      }
+
+      .image-container img {
+        width: 90%;
+      }
+    }
+  </style>
+
+
 
   <section class="bg_secondary" style="margin-top: 30px;">
     <div class="container">
@@ -91,7 +154,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="section_heading text-center">
-                <i class="fas fa-user-tie fa-3x"></i> <!-- Professional user icon -->
+              <i class="fas fa-user-tie fa-3x"></i> <!-- Professional user icon -->
 
               <h2 style="margin-top: 15px; margin-bottom: 15px;">Our Team</h2>
             </div><!-- section_heading -->
@@ -106,14 +169,14 @@
       <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
         <div class="team-card">
           <div class="team-img-wrapper">
-            <img class="team-img" src="images/image9.jpg">
+            <img class="team-img" src="images/image22.jpg">
           </div>
           <div class="team-card-content">
             <p class="text-blk name">
-                JayZee Brown
+              JayZee Brown
             </p>
             <p class="text-blk position">
-                Founder/CEO
+              Founder/CEO
             </p>
           </div>
         </div>
@@ -121,104 +184,14 @@
       <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
         <div class="team-card">
           <div class="team-img-wrapper">
-            <img class="team-img" src="images/image5.jpg">
+            <img class="team-img" src="images/image24.jpg">
           </div>
           <div class="team-card-content">
             <p class="text-blk name">
-                David Alimo
+              Melya Owens
             </p>
             <p class="text-blk position">
-                Executive Marketing Director
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-        <div class="team-card">
-          <div class="team-img-wrapper">
-            <img class="team-img" src="images/image11.jpg">
-          </div>
-          <div class="team-card-content">
-            <p class="text-blk name">
-                Melya Owens
-            </p>
-            <p class="text-blk position">
-                Executive Program Director
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-        <div class="team-card">
-          <div class="team-img-wrapper">
-            <img class="team-img" src="images/image3.jpg">
-          </div>
-          <div class="team-card-content">
-            <p class="text-blk name">
-                Gavin Lyons
-            </p>
-            <p class="text-blk position">
-                Executive Relations & Sponsorships
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-        <div class="team-card">
-          <div class="team-img-wrapper">
-            <img class="team-img" src="images/image2.jpg">
-          </div>
-          <div class="team-card-content">
-            <p class="text-blk name">
-                Tanieya Foster
-            </p>
-            <p class="text-blk position">
-                Finance and Student Leadership Coordinator
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-        <div class="team-card">
-          <div class="team-img-wrapper">
-            <img class="team-img" src="images/image8.jpg">
-          </div>
-          <div class="team-card-content">
-            <p class="text-blk name">
-                Emmanual Blackshear
-            </p>
-            <p class="text-blk position">
-                Digital Content Producer
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-        <div class="team-card">
-          <div class="team-img-wrapper">
-            <img class="team-img" src="images/image4.jpg">
-          </div>
-          <div class="team-card-content">
-            <p class="text-blk name">
-                Maureen Michaels
-            </p>
-            <p class="text-blk position">
-                Social Brand Content Coordinator
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-        <div class="team-card">
-          <div class="team-img-wrapper">
-            <img class="team-img" src="images/image1.jpg">
-          </div>
-          <div class="team-card-content">
-            <p class="text-blk name">
-                Huck Sorock
-            </p>
-            <p class="text-blk position">
-                Director of Strategic Partnerships
+              Executive Program Director
             </p>
           </div>
         </div>
@@ -230,10 +203,100 @@
           </div>
           <div class="team-card-content">
             <p class="text-blk name">
-                Xavier Thurman
+                Junior
             </p>
             <p class="text-blk position">
-                Chief Digital Officer 
+              Executive Marketing Director
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <img class="team-img" src="images/image4.jpg">
+          </div>
+          <div class="team-card-content">
+            <p class="text-blk name">
+              Gavin Lyons
+            </p>
+            <p class="text-blk position">
+              Executive Relations & Sponsorships
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <img class="team-img" src="images/image3.jpg">
+          </div>
+          <div class="team-card-content">
+            <p class="text-blk name">
+              Tanieya Foster
+            </p>
+            <p class="text-blk position">
+              Finance and Student Leadership Coordinator
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <img class="team-img" src="images/image9.jpg">
+          </div>
+          <div class="team-card-content">
+            <p class="text-blk name">
+              Emmanual Blackshear
+            </p>
+            <p class="text-blk position">
+              Digital Content Producer
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <img class="team-img" src="images/image18.jpg">
+          </div>
+          <div class="team-card-content">
+            <p class="text-blk name">
+              Maureen Michaels
+            </p>
+            <p class="text-blk position">
+              Social Brand Content Coordinator
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <img class="team-img" src="images/image1.jpg">
+          </div>
+          <div class="team-card-content">
+            <p class="text-blk name">
+              Huck Sorock
+            </p>
+            <p class="text-blk position">
+              Director of Strategic Partnerships
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
+        <div class="team-card">
+          <div class="team-img-wrapper">
+            <img class="team-img" src="images/x.png">
+          </div>
+          <div class="team-card-content">
+            <p class="text-blk name">
+              Xavier Thurman
+            </p>
+            <p class="text-blk position">
+              Chief Digital Officer
             </p>
           </div>
         </div>
@@ -255,7 +318,7 @@
           <div class="col-lg-5 col-md-5">
             <div class="footer-content">
               <p>Empowering Minnesotas rising leaders
-.</p>
+                .</p>
             </div>
           </div><!-- col-lg-4 -->
           <div class="col-lg-1 col-md-1"></div>

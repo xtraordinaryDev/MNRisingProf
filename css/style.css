@@ -71,7 +71,7 @@ h6{
 	border: 1px solid 000000;
 }
 .header_btn:hover{
-	background-color: #3f291b;
+	background-color: #000;
 	color: #FFF;
 }
 .navbar-nav .nav-item{
@@ -195,11 +195,11 @@ h6{
 	padding-left:  60px;
 }
 .c_primary{
-	color: #3f291b;
+	color: #000;
 }
 
 .blog_box{
-	border: 1px solid #3f291b;
+	border: 1px solid #000;
 	border-radius:6px;
 }
 .blog_box img{
@@ -209,7 +209,7 @@ h6{
 
 }
 .blog_box h4 a{
-	color: #3f291b;
+	color: #000;
 }
 .blog_box_title{
 	padding: 12px;
@@ -297,9 +297,9 @@ footer{
 	margin-bottom: 0;
 }
 .team-box{
-	border: 1px solid #3f291b;
+	border: 1px solid #000;
 	border-radius: 10px;
-	color: #3F291B;
+	color: #000;
 	padding: 15px;
 	height: 100%;
 }
@@ -316,8 +316,8 @@ footer{
 }
 
 .partnership-box {
-	color: #3f291b;
-	border: 1px solid #3f291b;
+	color: #000;
+	border: 1px solid #000;
 	border-radius: 10px;
 	margin-bottom: 15px;
 }
@@ -338,7 +338,7 @@ footer{
 }
 
 .signup-box{
-	background-color: #3f291b;
+	background-color: #000;
 	color: #FFF;
 	height: 100%;
 	align-content: center;
@@ -351,12 +351,12 @@ margin-bottom: 15px;
 	margin-bottom: 0;
 }
 .signup-form input, .signup-form textarea{
-	color: #3f291b;
-	border: 1px solid #3f291b;
+	color: #000;
+	border: 1px solid #000;
 	margin-bottom: 15px;
 }
 .signup-form input::placeholder, .signup-form textarea::placeholder{
-	color: #3f291b;
+	color: #000;
 }
 .signup-form button{
 	border: 0;
@@ -368,7 +368,7 @@ margin-bottom: 15px;
 	float: right;
 }
 .signup-form button:hover{
-	background-color: #3f291b;
+	background-color: #000;
 }
 
 .contact_info{
@@ -387,11 +387,11 @@ margin-bottom: 15px;
 	font-weight: 600;
 }
 .contact_info ul li a:hover{
-	color: #3f291b;
+	color: #000;
 }
 
 .resources-box{
-	border: 1px solid #3f291b;
+	border: 1px solid #000;
 	border-radius: 8px;
 	padding: 15px 15px 45px 15px;
 	position: relative;
@@ -411,7 +411,7 @@ margin-bottom: 15px;
 }
 
 .category_box{
-	background-color: #3f291b;
+	background-color: #000;
 	color: #FFF;
 	border-radius: 8px;
 	padding: 15px;
@@ -433,11 +433,11 @@ margin-bottom: 15px;
 }
 .category_form{}
 .category_form input, .category_form select{
-	color: #3f291b;
-	border: 1px solid #3f291b;
+	color: #000;
+	border: 1px solid #000;
 }
 .category_form input::placeholder{
-	color: #3f291b;
+	color: #000;
 }
 .category_form button{
 	border: 0;
@@ -450,10 +450,10 @@ margin-bottom: 15px;
 	transition: all ease-in-out 0.3s;
 }
 .category_form button:hover{
-	background-color: #3f291b;
+	background-color: #000;
 }
 .form-control:focus, .form-select:focus{
-	border-color: #3f291b;
+	border-color: #000;
 	box-shadow: 0 0 0 .25rem rgba(63, 41, 27, .25);
 }
 
@@ -475,8 +475,8 @@ margin-bottom: 15px;
 	font-weight: bold;
 }
 .sponsors_hero_box{
-	color: #3F291B;
-	border: 1px solid #3F291B;
+	color: #000;
+	border: 1px solid #000;
 	border-radius: 8px;
 	background-color: #FFF;
 	padding: 12px;
@@ -493,11 +493,11 @@ margin-bottom: 15px;
 	text-align: center;
 }
 .business_box{
-	border: 1px solid #3f291b;
+	border: 1px solid #000;
 	border-radius: 10px;
 }
 .business_box_content{
-	color: #3F291B;
+	color: #000;
 	padding: 10px;
 }
 .business_box_content h6{
@@ -515,13 +515,13 @@ margin-bottom: 15px;
 	margin-bottom: 10px;
 }
 .business_box_content ul li i{
-	color: #3F291B;
+	color: #000;
 }
 .business_box_content ul li a{
-	color: #3F291B;
+	color: #000;
 }
 .back a{
-	color: #3F291B;
+	color: #000;
 	font-size: 16px;
 }
 
@@ -546,7 +546,7 @@ margin-bottom: 15px;
       justify-content: space-between;
       align-items: center;
       
-      background-color: #3f291b;
+      background-color: #000;
       color: #FFF;
       padding: 10px 0;
       justify-content: center;
@@ -564,7 +564,7 @@ margin-bottom: 15px;
       font-size: 12px;
     }
     .day-cell:hover {
-      background-color: #3f291b;
+      background-color: #000;
       color: #FFF;
     }
     .current-day {
@@ -587,10 +587,10 @@ margin-bottom: 15px;
 	background-color: unset !important;
 }
 .current-day{
-	background-color: #3f291b;
+	background-color: #000;
 }
 #daysOfWeek .col{
-	color: #3f291b;
+	color: #000;
 	padding: 10px 0;
 }
 .simple-image img{

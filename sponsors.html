@@ -138,61 +138,114 @@
             </div><!-- container -->
         </div><!-- bg_primary -->
     </header>
-
-    <section class="schedule-section">
-        <header class="schedule-header">
-            <h1>MN Rising Professionals Conference 2025 Schedule </h1>
-            <spans style="color: red; font-size: 20px;">(subject to change)</span>
-        </header>
-
-        <div class="day-schedule">
-            <h2>Friday, August 19, 2025</h2>
-            <div class="event">
-                <span class="event-time">6:00 PM - 7:00 PM</span>
-                <div class="event-title">Welcome Introduction + Keynote Speech by Chauncee Hollingsworth</div>
-            </div>
-            <div class="event">
-                <span class="event-time">8:00 PM - 10:00 PM</span>
-                <div class="event-title">Opening Reception Party</div>
-            </div>
+<<section class="sponsor-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Our Sponsors</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up">
+        <div class="sponsor-card">
+          <div class="sponsor-logo">
+            <img src="images/Xtraordinary_2c.jpg" alt="Xtraordinary Development Logo">
+          </div>
+          <div class="sponsor-description">
+            <h3>Xtraordinary Development</h3>
+            <p>Xtraordinary Development is a software consulting and development company committed to fostering growth and development within the community by providing resources and support to aspiring professionals.</p>
+          </div>
         </div>
-
-        <div class="day-schedule">
-            <h2>Saturday, August 20, 2025</h2>
-            <div class="event">
-                <span class="event-time">9:00 AM - 10:00 AM</span>
-                <div class="event-title">Breakfast + Open Networking</div>
-            </div>
-            <div class="event">
-                <span class="event-time">10:00 AM - 10:30 AM</span>
-                <div class="event-title">Opening Morning Speaker</div>
-            </div>
-            <div class="event">
-                <span class="event-time">10:45 AM - 11:45 AM</span>
-                <div class="event-title">Panel Session 1</div>
-                <div class="event-description">
-                    • Panel A: Leadership for the Next Generation: How to Excel Early in Your Career<br>
-                    • Panel B: Financial Literacy and Wealth Building for Young Professionals
-                </div>
-            </div>
-            <!-- Additional events for Saturday -->
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up">
+        <div class="sponsor-card">
+          <div class="sponsor-logo">
+            <img src="images/sponsor2.png" alt="Refr Sports Logo">
+          </div>
+          <div class="sponsor-description">
+            <h3>Refr Sports</h3>
+            <p>Refr Sports is dedicated to promoting sports and physical activities, helping individuals achieve their fitness goals and maintain a healthy lifestyle.</p>
+          </div>
         </div>
-
-        <div class="day-schedule">
-            <h2>Sunday, August 21, 2025</h2>
-            <div class="event">
-                <span class="event-time">9:00 AM - 10:00 AM</span>
-                <div class="event-title">Breakfast + Open Networking</div>
-            </div>
-            <div class="event">
-                <span class="event-time">10:15 AM - 11:00 AM</span>
-                <div class="event-title">Closing Remarks by Kevin Towers</div>
-                <div class="event-description">Topic: Building on the Momentum: Sustaining Your Professional Growth
-                </div>
-            </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up">
+        <div class="sponsor-card">
+          <div class="sponsor-logo">
+            <img src="images/sponsor3.png" alt="Hoops & Christ Logo">
+          </div>
+          <div class="sponsor-description">
+            <h3>Hoops & Christ</h3>
+            <p>Hoops & Christ combines the love of basketball with faith-based principles, providing mentorship and guidance to young athletes.</p>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
+<style>
+  .sponsor-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    color: #000;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 40px;
+  }
+
+  .sponsor-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+
+  .sponsor-logo img {
+    width: 200px; /* Increased width */
+    height: auto;
+    margin-right: 30px; /* Added padding to the right */
+  }
+
+  .sponsor-description h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  .sponsor-description p {
+    margin: 0;
+    color: #555;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .sponsor-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .sponsor-logo img {
+      margin-bottom: 10px;
+      margin-right: 0; /* Remove right margin for mobile */
+    }
+  }
+</style>
+
+<!-- Include AOS CSS and JS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<!-- Initialize AOS -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    AOS.init();
+  });
+</script>
 
     <footer id="footer" class="footer dark-background">
   <div class="footer-top">
